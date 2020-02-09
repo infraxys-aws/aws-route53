@@ -8,7 +8,7 @@
   "autoGenerate": false,
   "inheritFilesFromPacketGuid": "",
   "key": "",
-  "infoHtml": "",
+  "infoHtml": "\u003ch1\u003eRoute53 A Alias record\u003c/h1\u003e\n\u003cp\u003eSee \u003ca href\u003d\"https://www.terraform.io/docs/providers/aws/r/route53_record.html\" target\u003d\"_blank\"\u003eTerraform Resource: aws_route53_record\u003c/a\u003e",
   "attributes": [
     {
       "name": "evaluate_target_health",
@@ -29,7 +29,7 @@
       "cloneAttribute": true,
       "autoExport": true,
       "inputPrompt": "",
-      "tooltip": "",
+      "tooltip": "\u003cp\u003eSet to true if you want Route 53 to determine whether to respond to DNS queries using this resource record set by checking the health of the resource record set.\u003c/p\u003e",
       "scope": "Instance",
       "defaultValue": "1"
     },
@@ -52,7 +52,7 @@
       "cloneAttribute": true,
       "autoExport": true,
       "inputPrompt": "",
-      "tooltip": "",
+      "tooltip": "\u003cp\u003eEnter the label that should be shown in the instance tree\u003c/p\u003e",
       "scope": "Instance",
       "defaultValue": ""
     },
@@ -75,7 +75,7 @@
       "cloneAttribute": true,
       "autoExport": true,
       "inputPrompt": "",
-      "tooltip": "",
+      "tooltip": "\u003cp\u003eThe name of the record\u003c/p\u003e",
       "scope": "Instance",
       "defaultValue": ""
     },
@@ -98,7 +98,7 @@
       "cloneAttribute": true,
       "autoExport": true,
       "inputPrompt": "",
-      "tooltip": "",
+      "tooltip": "\u003cp\u003eThe ID of the hosted zone to contain this record.\u003c/p\u003e",
       "scope": "Instance",
       "defaultValue": "aws_route53_zone.primary.zone_id"
     },
@@ -121,7 +121,7 @@
       "cloneAttribute": true,
       "autoExport": true,
       "inputPrompt": "",
-      "tooltip": "",
+      "tooltip": "\u003cp\u003eDNS domain name for a CloudFront distribution, S3 bucket, ELB, or another resource record set in this hosted zone.\u003c/p\u003e",
       "scope": "Instance",
       "defaultValue": "aws_lb.MYALB.dns_name"
     },
@@ -144,7 +144,7 @@
       "cloneAttribute": true,
       "autoExport": true,
       "inputPrompt": "",
-      "tooltip": "",
+      "tooltip": "\u003cp\u003eHosted zone ID for a CloudFront distribution, S3 bucket, ELB, or Route 53 hosted zone.\u003c/p\u003e",
       "scope": "Instance",
       "defaultValue": "aws_lb.MYALB.zone_id"
     }
